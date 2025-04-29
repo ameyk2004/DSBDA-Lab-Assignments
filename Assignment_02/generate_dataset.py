@@ -40,4 +40,4 @@ for i in range(1000):
 
 df  = pd.DataFrame(rows)
 
-df.to_csv('Assignment_02/dataset.csv')
+df.to_csv('Assignment_02/dataset.csv', index=False)
