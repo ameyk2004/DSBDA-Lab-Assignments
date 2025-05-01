@@ -18,5 +18,5 @@ object WordCount{
         var query = wordCount.writeStream.outputMode("complete").format("console").start()
 
         query.awaitTermination()
-    }   
+    }  
 }
